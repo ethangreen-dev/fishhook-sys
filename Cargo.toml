@@ -1,0 +1,12 @@
+[package]
+name = "fishhook-rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "fishhook_sys"
+path = "lib.rs"
+
+[build-dependencies]
+bindgen = "0.71.1"
+prettyplease = "0.2.31"
